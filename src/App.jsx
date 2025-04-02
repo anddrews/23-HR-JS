@@ -1,12 +1,11 @@
-import './App.css';
-
-const arr = [1, 2, 3, 4, 5];
+import './App.css'
+import { Button } from './components/button/Button';
 
 function App() {
   return (
     <>
       <h1>Hello world</h1>
-      {arr.map((item, index) => (<div key={index}>{item}</div>))}
+      <Button>Submit</Button>
     </>
   )
 }
