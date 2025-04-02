@@ -1,12 +1,11 @@
 import './App.css'
-const arr = ['apple', 'banana', 'orange']
+import { Button } from './components/button/Button'
 
 function App() {
-  
   return (
     <>
       <h1>HW1</h1>
-      {arr.map((item, index) => (<div key={index}>{item}</div>))}
+      <Button>Submit</Button>
     </>
 
   )
