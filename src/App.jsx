@@ -1,7 +1,7 @@
 import './App.css'
+const arr = ['apple', 'banana', 'orange']
 
 function App() {
-  const arr = ['apple', 'banana', 'orange']
   
   return (
     <>
