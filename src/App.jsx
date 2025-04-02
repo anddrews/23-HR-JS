@@ -1,7 +1,8 @@
-import './App.css'
+import './App.css';
+
+const arr = [1, 2, 3, 4, 5];
 
 function App() {
-  const arr = [1, 2, 3, 4, 5];
   return (
     <>
       <h1>Hello world</h1>
