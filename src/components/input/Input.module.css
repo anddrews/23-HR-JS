@@ -1,0 +1,13 @@
+.input {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 18px;
+
+    input {
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+
+    }
+}

@@ -1,9 +1,15 @@
+import { Input } from './components/input/Input'
 import './App.css'
+import { Text } from './components/text/Text'
 
 function App() {
 
   return (
-      <h1>Hello world</h1>
+      <div className="container">
+        <Input />
+        <Text />
+        <Input />
+      </div>
   )
 }
 
